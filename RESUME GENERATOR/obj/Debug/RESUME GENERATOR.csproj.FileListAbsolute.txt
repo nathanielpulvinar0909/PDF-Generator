@@ -15,3 +15,21 @@ C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESU
 C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME GENERATOR.csproj.CopyComplete
 C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME GENERATOR.exe
 C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME GENERATOR.pdb
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\PdfSharp.Charting.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\PdfSharp.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\PdfSharp.xml
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\PdfSharp.Charting.xml
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Buffers.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Drawing.Common.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Memory.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Buffers.xml
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Drawing.Common.xml
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Memory.xml
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\System.Text.Encoding.CodePages.xml

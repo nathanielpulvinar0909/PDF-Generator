@@ -68,13 +68,14 @@
             // 
             // btnConvertToPDF
             // 
+            this.btnConvertToPDF.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnConvertToPDF.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConvertToPDF.Location = new System.Drawing.Point(803, 955);
             this.btnConvertToPDF.Name = "btnConvertToPDF";
             this.btnConvertToPDF.Size = new System.Drawing.Size(238, 65);
             this.btnConvertToPDF.TabIndex = 74;
             this.btnConvertToPDF.Text = "&Generate Resume to PDF";
-            this.btnConvertToPDF.UseVisualStyleBackColor = true;
+            this.btnConvertToPDF.UseVisualStyleBackColor = false;
             this.btnConvertToPDF.Click += new System.EventHandler(this.btnConvertToPDF_Click);
             // 
             // label9
