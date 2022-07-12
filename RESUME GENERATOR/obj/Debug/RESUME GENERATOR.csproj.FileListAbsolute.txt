@@ -1,0 +1,17 @@
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\RESUME GENERATOR.exe.config
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\RESUME GENERATOR.exe
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\RESUME GENERATOR.pdb
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\itextsharp.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\itextsharp.xml
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME GENERATOR.csproj.AssemblyReference.cache
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME GENERATOR.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME_GENERATOR.Form1.resources
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME_GENERATOR.Properties.Resources.resources
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME GENERATOR.csproj.GenerateResource.cache
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME GENERATOR.csproj.CoreCompileInputs.cache
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME GENERATOR.csproj.CopyComplete
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME GENERATOR.exe
+C:\Users\ASUS DEMO\source\repos\RESUME GENERATOR\RESUME GENERATOR\obj\Debug\RESUME GENERATOR.pdb
