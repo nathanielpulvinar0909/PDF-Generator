@@ -34,6 +34,8 @@ namespace RESUME_GENERATOR
             public string PhoneNumber { get; set; }
             public string CivilStatus { get; set; }
             public string Birthday { get; set; }
+            public string Religion { get; set; }
+            public string GitHubLink { get; set; }
 
             // SKills
             public string SoftSkills { get; set; }
@@ -72,6 +74,8 @@ namespace RESUME_GENERATOR
                 myInformation.PhoneNumber = txtPhoneNumber.Text;
                 myInformation.CivilStatus = txtCivilStatus.Text;
                 myInformation.Birthday = txtBirthday.Text;
+                myInformation.Religion = txtReligion.Text;
+                myInformation.GitHubLink = txtGitHubLink.Text;
                 myInformation.SoftSkills = txtSoftSkills.Text;
                 myInformation.HardSkills = txtHardSkills.Text;
                 myInformation.Elementary = txtElementary.Text;
@@ -81,10 +85,11 @@ namespace RESUME_GENERATOR
                 myInformation.Experience = txtExperience.Text;
 
                 string jsonDetails = JsonConvert.SerializeObject(myInformation);
+
                 ResumeInformation empty = JsonConvert.DeserializeObject<ResumeInformation>(jsonDetails);
 
                 // Reading JSON File
-                
+
                 File.WriteAllText(@"C:\Users\ASUS DEMO\Downloads\Resume\.json", jsonDetails);
 
                 jsonDetails = String.Empty;
@@ -92,10 +97,7 @@ namespace RESUME_GENERATOR
                 var resultResume = JsonConvert.DeserializeObject<ResumeInformation>(jsonDetails);
                 MessageBox.Show(resultResume.ToString());
                 MessageBox.Show("The information you entered is succesfully stored", "Infomation", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                
-                MessageBox.Show(empty.ToString());
-
+             
                 if (myPDF.ShowDialog() == DialogResult.OK)
                 {
                     iTextSharp.text.Document files = new iTextSharp.text.Document(PageSize.A4);
@@ -105,11 +107,6 @@ namespace RESUME_GENERATOR
                         PdfWriter.GetInstance(files, new FileStream(myPDF.FileName, FileMode.Create));
 
                         files.Open();
-
-                        //System.Drawing.Image pImage = System.Drawing.Image.FromFile(@"C:\Users\ASUS DEMO\Downloads\241360390_1911724032333658_2983075059247081879_n.jpg");
-                        //iTextSharp.text.Image ItextImage = iTextSharp.text.Image.GetInstance(pImage, System.Drawing.Imaging.ImageFormat.Jpeg);
-                        //ItextImage.Alignment = Element.ALIGN_LEFT;
-                        //files.Add(ItextImage);
 
                         iTextSharp.text.Font line = FontFactory.GetFont(iTextSharp.text.Font.FontFamily.HELVETICA.ToString(), 12, iTextSharp.text.Font.BOLD, BaseColor.BLACK);
                         Paragraph linespace = new Paragraph($"______________________________________________________________________\n                                                                                ", line);
@@ -136,7 +133,7 @@ namespace RESUME_GENERATOR
 
                         // Details of Personal Information
                         iTextSharp.text.Font personalInformationDetails = FontFactory.GetFont(iTextSharp.text.Font.FontFamily.HELVETICA.ToString(), 12, iTextSharp.text.Font.NORMAL, BaseColor.BLACK);
-                        Paragraph content1 = new Paragraph($"Address: {txtAddress.Text} \nEmail Address: {txtEmailAddress.Text}\nPhone Number: {txtPhoneNumber.Text} \nCivil Status: {txtCivilStatus.Text} \nBirthday: {txtBirthday.Text}");
+                        Paragraph content1 = new Paragraph($"   Address: {txtAddress.Text} \n   Email Address: {txtEmailAddress.Text}\n   Phone Number: {txtPhoneNumber.Text} \n   Civil Status: {txtCivilStatus.Text} \n   Birthday: {txtBirthday.Text} \n   Religion: {txtReligion.Text} \n   GitHubLink: {txtGitHubLink.Text}");
                         content1.Alignment = Element.ALIGN_LEFT;
                         files.Add(content1);
                         files.Add(linespace);
@@ -149,7 +146,7 @@ namespace RESUME_GENERATOR
 
                         // Details of Skills
                         iTextSharp.text.Font skillsDetails = FontFactory.GetFont(iTextSharp.text.Font.FontFamily.HELVETICA.ToString(), 12, iTextSharp.text.Font.NORMAL, BaseColor.BLACK);
-                        Paragraph content2 = new Paragraph($"Soft Skills: {txtSoftSkills.Text} \nHard Skills:", skillsDetails);
+                        Paragraph content2 = new Paragraph($"Soft Skills: \n{txtSoftSkills.Text} \nHard Skills: \n{txtHardSkills.Text}", skillsDetails);
                         content2.Alignment = Element.ALIGN_LEFT;
                         files.Add(content2);
                         files.Add(linespace);
@@ -162,7 +159,7 @@ namespace RESUME_GENERATOR
 
                         // Details of Education
                         iTextSharp.text.Font educationDetails = FontFactory.GetFont(iTextSharp.text.Font.FontFamily.HELVETICA.ToString(), 12, iTextSharp.text.Font.NORMAL, BaseColor.BLACK);
-                        Paragraph content3 = new Paragraph($"Elementary: {txtElementary.Text} \nJunior High School: {txtJuniorHighSchool.Text}\nSenior High School: {txtSeniorHighSchool.Text} \nCollege: {txtCollege.Text}", educationDetails);
+                        Paragraph content3 = new Paragraph($"   Elementary: {txtElementary.Text} \n   Junior High School: {txtJuniorHighSchool.Text}\n   Senior High School: {txtSeniorHighSchool.Text} \n   College: {txtCollege.Text}", educationDetails);
                         content3.Alignment = Element.ALIGN_LEFT;
                         files.Add(content3);
                         files.Add(linespace);
@@ -189,6 +186,8 @@ namespace RESUME_GENERATOR
                     finally
                     {
                         files.Close();
+                        MessageBox.Show("Your File has been saved. Thank you!");
+                        Application.Exit();
                     }
                 }  
             }

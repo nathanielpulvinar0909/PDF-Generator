@@ -29,48 +29,52 @@
         private void InitializeComponent()
         {
             this.btnConvertToPDF = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblCollege = new System.Windows.Forms.Label();
             this.txtCollege = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
+            this.lblSeniorHighSchool = new System.Windows.Forms.Label();
             this.txtSeniorHighSchool = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
+            this.lblJuniorHighSchool = new System.Windows.Forms.Label();
             this.txtJuniorHighSchool = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblElementary = new System.Windows.Forms.Label();
             this.txtElementary = new System.Windows.Forms.TextBox();
             this.txtExperience = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.lblExperience = new System.Windows.Forms.Label();
+            this.lblEducation = new System.Windows.Forms.Label();
             this.txtHardSkills = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblHardSKills = new System.Windows.Forms.Label();
+            this.lblSoftSkills = new System.Windows.Forms.Label();
             this.txtSoftSkills = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtBirthday = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblPersonalInformation = new System.Windows.Forms.Label();
+            this.lblBirthday = new System.Windows.Forms.Label();
+            this.txtBirthday = new System.Windows.Forms.TextBox();
+            this.lblCIvilStatus = new System.Windows.Forms.Label();
             this.txtCivilStatus = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblPhoneNumber = new System.Windows.Forms.Label();
             this.txtPhoneNumber = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblEmailAddress = new System.Windows.Forms.Label();
             this.txtEmailAddress = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblAddress = new System.Windows.Forms.Label();
             this.txtAddress = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblCareerObjectives = new System.Windows.Forms.Label();
             this.txtCareerObjectives = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblLastName = new System.Windows.Forms.Label();
             this.txtLastName = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblMiddleName = new System.Windows.Forms.Label();
             this.txtMiddleName = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblFirstName = new System.Windows.Forms.Label();
             this.txtFirstName = new System.Windows.Forms.TextBox();
+            this.lblGitHubLink = new System.Windows.Forms.Label();
+            this.txtGitHubLink = new System.Windows.Forms.TextBox();
+            this.lblReligion = new System.Windows.Forms.Label();
+            this.txtReligion = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnConvertToPDF
             // 
-            this.btnConvertToPDF.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnConvertToPDF.BackColor = System.Drawing.Color.MistyRose;
             this.btnConvertToPDF.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConvertToPDF.Location = new System.Drawing.Point(803, 955);
+            this.btnConvertToPDF.Location = new System.Drawing.Point(773, 980);
             this.btnConvertToPDF.Name = "btnConvertToPDF";
             this.btnConvertToPDF.Size = new System.Drawing.Size(238, 65);
             this.btnConvertToPDF.TabIndex = 74;
@@ -78,84 +82,84 @@
             this.btnConvertToPDF.UseVisualStyleBackColor = false;
             this.btnConvertToPDF.Click += new System.EventHandler(this.btnConvertToPDF_Click);
             // 
-            // label9
+            // lblCollege
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(138, 742);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 21);
-            this.label9.TabIndex = 73;
-            this.label9.Text = "College";
+            this.lblCollege.AutoSize = true;
+            this.lblCollege.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCollege.Location = new System.Drawing.Point(138, 765);
+            this.lblCollege.Name = "lblCollege";
+            this.lblCollege.Size = new System.Drawing.Size(67, 21);
+            this.lblCollege.TabIndex = 73;
+            this.lblCollege.Text = "College";
             // 
             // txtCollege
             // 
             this.txtCollege.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCollege.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCollege.Location = new System.Drawing.Point(142, 766);
+            this.txtCollege.Location = new System.Drawing.Point(142, 789);
             this.txtCollege.Multiline = true;
             this.txtCollege.Name = "txtCollege";
             this.txtCollege.Size = new System.Drawing.Size(763, 27);
             this.txtCollege.TabIndex = 72;
             this.txtCollege.Text = "N/A";
             // 
-            // label18
+            // lblSeniorHighSchool
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(138, 684);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(157, 21);
-            this.label18.TabIndex = 71;
-            this.label18.Text = "Senior High School";
+            this.lblSeniorHighSchool.AutoSize = true;
+            this.lblSeniorHighSchool.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSeniorHighSchool.Location = new System.Drawing.Point(138, 707);
+            this.lblSeniorHighSchool.Name = "lblSeniorHighSchool";
+            this.lblSeniorHighSchool.Size = new System.Drawing.Size(157, 21);
+            this.lblSeniorHighSchool.TabIndex = 71;
+            this.lblSeniorHighSchool.Text = "Senior High School";
             // 
             // txtSeniorHighSchool
             // 
             this.txtSeniorHighSchool.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSeniorHighSchool.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSeniorHighSchool.Location = new System.Drawing.Point(142, 708);
+            this.txtSeniorHighSchool.Location = new System.Drawing.Point(142, 731);
             this.txtSeniorHighSchool.Multiline = true;
             this.txtSeniorHighSchool.Name = "txtSeniorHighSchool";
             this.txtSeniorHighSchool.Size = new System.Drawing.Size(763, 27);
             this.txtSeniorHighSchool.TabIndex = 70;
             this.txtSeniorHighSchool.Text = "N/A";
             // 
-            // label17
+            // lblJuniorHighSchool
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(138, 623);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(154, 21);
-            this.label17.TabIndex = 69;
-            this.label17.Text = "Junior High School";
+            this.lblJuniorHighSchool.AutoSize = true;
+            this.lblJuniorHighSchool.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblJuniorHighSchool.Location = new System.Drawing.Point(138, 646);
+            this.lblJuniorHighSchool.Name = "lblJuniorHighSchool";
+            this.lblJuniorHighSchool.Size = new System.Drawing.Size(154, 21);
+            this.lblJuniorHighSchool.TabIndex = 69;
+            this.lblJuniorHighSchool.Text = "Junior High School";
             // 
             // txtJuniorHighSchool
             // 
             this.txtJuniorHighSchool.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtJuniorHighSchool.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtJuniorHighSchool.Location = new System.Drawing.Point(142, 647);
+            this.txtJuniorHighSchool.Location = new System.Drawing.Point(142, 670);
             this.txtJuniorHighSchool.Multiline = true;
             this.txtJuniorHighSchool.Name = "txtJuniorHighSchool";
             this.txtJuniorHighSchool.Size = new System.Drawing.Size(763, 27);
             this.txtJuniorHighSchool.TabIndex = 68;
             this.txtJuniorHighSchool.Text = "N/A";
             // 
-            // label16
+            // lblElementary
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(138, 566);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(101, 21);
-            this.label16.TabIndex = 67;
-            this.label16.Text = "Elementary";
+            this.lblElementary.AutoSize = true;
+            this.lblElementary.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblElementary.Location = new System.Drawing.Point(138, 589);
+            this.lblElementary.Name = "lblElementary";
+            this.lblElementary.Size = new System.Drawing.Size(101, 21);
+            this.lblElementary.TabIndex = 67;
+            this.lblElementary.Text = "Elementary";
             // 
             // txtElementary
             // 
             this.txtElementary.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtElementary.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtElementary.Location = new System.Drawing.Point(142, 590);
+            this.txtElementary.Location = new System.Drawing.Point(142, 613);
             this.txtElementary.Multiline = true;
             this.txtElementary.Name = "txtElementary";
             this.txtElementary.Size = new System.Drawing.Size(763, 27);
@@ -165,67 +169,67 @@
             // txtExperience
             // 
             this.txtExperience.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtExperience.Location = new System.Drawing.Point(142, 821);
+            this.txtExperience.Location = new System.Drawing.Point(142, 844);
             this.txtExperience.Multiline = true;
             this.txtExperience.Name = "txtExperience";
             this.txtExperience.Size = new System.Drawing.Size(763, 121);
             this.txtExperience.TabIndex = 65;
             // 
-            // label11
+            // lblExperience
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Gill Sans Ultra Bold Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(83, 796);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(404, 29);
-            this.label11.TabIndex = 64;
-            this.label11.Text = "Experience, Qualifications, and Certificates";
+            this.lblExperience.AutoSize = true;
+            this.lblExperience.Font = new System.Drawing.Font("Gill Sans Ultra Bold Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExperience.Location = new System.Drawing.Point(83, 819);
+            this.lblExperience.Name = "lblExperience";
+            this.lblExperience.Size = new System.Drawing.Size(404, 29);
+            this.lblExperience.TabIndex = 64;
+            this.lblExperience.Text = "Experience, Qualifications, and Certificates";
             // 
-            // label15
+            // lblEducation
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Gill Sans Ultra Bold Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(83, 537);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(99, 29);
-            this.label15.TabIndex = 63;
-            this.label15.Text = "Education";
+            this.lblEducation.AutoSize = true;
+            this.lblEducation.Font = new System.Drawing.Font("Gill Sans Ultra Bold Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEducation.Location = new System.Drawing.Point(83, 560);
+            this.lblEducation.Name = "lblEducation";
+            this.lblEducation.Size = new System.Drawing.Size(99, 29);
+            this.lblEducation.TabIndex = 63;
+            this.lblEducation.Text = "Education";
             // 
             // txtHardSkills
             // 
             this.txtHardSkills.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtHardSkills.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHardSkills.Location = new System.Drawing.Point(538, 411);
+            this.txtHardSkills.Location = new System.Drawing.Point(538, 434);
             this.txtHardSkills.Multiline = true;
             this.txtHardSkills.Name = "txtHardSkills";
             this.txtHardSkills.Size = new System.Drawing.Size(367, 110);
             this.txtHardSkills.TabIndex = 62;
             // 
-            // label14
+            // lblHardSKills
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(534, 387);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(94, 21);
-            this.label14.TabIndex = 61;
-            this.label14.Text = "Hard Skills";
+            this.lblHardSKills.AutoSize = true;
+            this.lblHardSKills.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHardSKills.Location = new System.Drawing.Point(534, 410);
+            this.lblHardSKills.Name = "lblHardSKills";
+            this.lblHardSKills.Size = new System.Drawing.Size(94, 21);
+            this.lblHardSKills.TabIndex = 61;
+            this.lblHardSKills.Text = "Hard Skills";
             // 
-            // label13
+            // lblSoftSkills
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(138, 387);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(84, 21);
-            this.label13.TabIndex = 60;
-            this.label13.Text = "Soft Skills";
+            this.lblSoftSkills.AutoSize = true;
+            this.lblSoftSkills.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoftSkills.Location = new System.Drawing.Point(138, 410);
+            this.lblSoftSkills.Name = "lblSoftSkills";
+            this.lblSoftSkills.Size = new System.Drawing.Size(84, 21);
+            this.lblSoftSkills.TabIndex = 60;
+            this.lblSoftSkills.Text = "Soft Skills";
             // 
             // txtSoftSkills
             // 
             this.txtSoftSkills.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSoftSkills.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoftSkills.Location = new System.Drawing.Point(142, 411);
+            this.txtSoftSkills.Location = new System.Drawing.Point(142, 434);
             this.txtSoftSkills.Multiline = true;
             this.txtSoftSkills.Name = "txtSoftSkills";
             this.txtSoftSkills.Size = new System.Drawing.Size(367, 110);
@@ -235,131 +239,131 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Gill Sans Ultra Bold Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(83, 357);
+            this.label12.Location = new System.Drawing.Point(83, 381);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(61, 29);
             this.label12.TabIndex = 58;
             this.label12.Text = "Skills";
             // 
-            // label10
+            // lblPersonalInformation
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Gill Sans Ultra Bold Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(83, 11);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(206, 29);
-            this.label10.TabIndex = 57;
-            this.label10.Text = "Personal Information";
+            this.lblPersonalInformation.AutoSize = true;
+            this.lblPersonalInformation.Font = new System.Drawing.Font("Gill Sans Ultra Bold Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPersonalInformation.Location = new System.Drawing.Point(83, 11);
+            this.lblPersonalInformation.Name = "lblPersonalInformation";
+            this.lblPersonalInformation.Size = new System.Drawing.Size(206, 29);
+            this.lblPersonalInformation.TabIndex = 57;
+            this.lblPersonalInformation.Text = "Personal Information";
+            // 
+            // lblBirthday
+            // 
+            this.lblBirthday.AutoSize = true;
+            this.lblBirthday.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBirthday.Location = new System.Drawing.Point(534, 267);
+            this.lblBirthday.Name = "lblBirthday";
+            this.lblBirthday.Size = new System.Drawing.Size(80, 21);
+            this.lblBirthday.TabIndex = 56;
+            this.lblBirthday.Text = "Birthday";
             // 
             // txtBirthday
             // 
-            this.txtBirthday.AutoSize = true;
-            this.txtBirthday.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBirthday.Location = new System.Drawing.Point(534, 292);
+            this.txtBirthday.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBirthday.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBirthday.Location = new System.Drawing.Point(538, 291);
+            this.txtBirthday.Multiline = true;
             this.txtBirthday.Name = "txtBirthday";
-            this.txtBirthday.Size = new System.Drawing.Size(80, 21);
-            this.txtBirthday.TabIndex = 56;
-            this.txtBirthday.Text = "Birthday";
+            this.txtBirthday.Size = new System.Drawing.Size(367, 27);
+            this.txtBirthday.TabIndex = 55;
             // 
-            // textBox9
+            // lblCIvilStatus
             // 
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox9.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(538, 316);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(367, 27);
-            this.textBox9.TabIndex = 55;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(138, 292);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(99, 21);
-            this.label8.TabIndex = 54;
-            this.label8.Text = "Civil Status";
+            this.lblCIvilStatus.AutoSize = true;
+            this.lblCIvilStatus.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCIvilStatus.Location = new System.Drawing.Point(138, 267);
+            this.lblCIvilStatus.Name = "lblCIvilStatus";
+            this.lblCIvilStatus.Size = new System.Drawing.Size(99, 21);
+            this.lblCIvilStatus.TabIndex = 54;
+            this.lblCIvilStatus.Text = "Civil Status";
             // 
             // txtCivilStatus
             // 
             this.txtCivilStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCivilStatus.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCivilStatus.Location = new System.Drawing.Point(142, 316);
+            this.txtCivilStatus.Location = new System.Drawing.Point(142, 291);
             this.txtCivilStatus.Multiline = true;
             this.txtCivilStatus.Name = "txtCivilStatus";
             this.txtCivilStatus.Size = new System.Drawing.Size(367, 27);
             this.txtCivilStatus.TabIndex = 53;
             // 
-            // label7
+            // lblPhoneNumber
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(534, 238);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(132, 21);
-            this.label7.TabIndex = 52;
-            this.label7.Text = "Phone Number";
+            this.lblPhoneNumber.AutoSize = true;
+            this.lblPhoneNumber.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhoneNumber.Location = new System.Drawing.Point(534, 213);
+            this.lblPhoneNumber.Name = "lblPhoneNumber";
+            this.lblPhoneNumber.Size = new System.Drawing.Size(132, 21);
+            this.lblPhoneNumber.TabIndex = 52;
+            this.lblPhoneNumber.Text = "Phone Number";
             // 
             // txtPhoneNumber
             // 
             this.txtPhoneNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPhoneNumber.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPhoneNumber.Location = new System.Drawing.Point(538, 262);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(538, 237);
             this.txtPhoneNumber.Multiline = true;
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(367, 27);
             this.txtPhoneNumber.TabIndex = 51;
             // 
-            // label6
+            // lblEmailAddress
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(138, 238);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(122, 21);
-            this.label6.TabIndex = 50;
-            this.label6.Text = "Email Address";
+            this.lblEmailAddress.AutoSize = true;
+            this.lblEmailAddress.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmailAddress.Location = new System.Drawing.Point(138, 213);
+            this.lblEmailAddress.Name = "lblEmailAddress";
+            this.lblEmailAddress.Size = new System.Drawing.Size(122, 21);
+            this.lblEmailAddress.TabIndex = 50;
+            this.lblEmailAddress.Text = "Email Address";
             // 
             // txtEmailAddress
             // 
             this.txtEmailAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEmailAddress.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmailAddress.Location = new System.Drawing.Point(142, 262);
+            this.txtEmailAddress.Location = new System.Drawing.Point(142, 237);
             this.txtEmailAddress.Multiline = true;
             this.txtEmailAddress.Name = "txtEmailAddress";
             this.txtEmailAddress.Size = new System.Drawing.Size(367, 27);
             this.txtEmailAddress.TabIndex = 49;
             // 
-            // label5
+            // lblAddress
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(138, 183);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 21);
-            this.label5.TabIndex = 48;
-            this.label5.Text = "Address";
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.Location = new System.Drawing.Point(138, 158);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(72, 21);
+            this.lblAddress.TabIndex = 48;
+            this.lblAddress.Text = "Address";
             // 
             // txtAddress
             // 
             this.txtAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtAddress.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAddress.Location = new System.Drawing.Point(142, 207);
+            this.txtAddress.Location = new System.Drawing.Point(142, 182);
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(763, 27);
             this.txtAddress.TabIndex = 47;
             // 
-            // label4
+            // lblCareerObjectives
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(138, 95);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 21);
-            this.label4.TabIndex = 46;
-            this.label4.Text = "Career Objectives";
+            this.lblCareerObjectives.AutoSize = true;
+            this.lblCareerObjectives.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCareerObjectives.Location = new System.Drawing.Point(138, 95);
+            this.lblCareerObjectives.Name = "lblCareerObjectives";
+            this.lblCareerObjectives.Size = new System.Drawing.Size(150, 21);
+            this.lblCareerObjectives.TabIndex = 46;
+            this.lblCareerObjectives.Text = "Career Objectives";
             // 
             // txtCareerObjectives
             // 
@@ -368,18 +372,18 @@
             this.txtCareerObjectives.Location = new System.Drawing.Point(142, 119);
             this.txtCareerObjectives.Multiline = true;
             this.txtCareerObjectives.Name = "txtCareerObjectives";
-            this.txtCareerObjectives.Size = new System.Drawing.Size(763, 58);
+            this.txtCareerObjectives.Size = new System.Drawing.Size(763, 36);
             this.txtCareerObjectives.TabIndex = 45;
             // 
-            // label3
+            // lblLastName
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(655, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 21);
-            this.label3.TabIndex = 44;
-            this.label3.Text = "Last Name";
+            this.lblLastName.AutoSize = true;
+            this.lblLastName.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLastName.Location = new System.Drawing.Point(655, 37);
+            this.lblLastName.Name = "lblLastName";
+            this.lblLastName.Size = new System.Drawing.Size(99, 21);
+            this.lblLastName.TabIndex = 44;
+            this.lblLastName.Text = "Last Name";
             // 
             // txtLastName
             // 
@@ -391,15 +395,15 @@
             this.txtLastName.Size = new System.Drawing.Size(246, 27);
             this.txtLastName.TabIndex = 43;
             // 
-            // label2
+            // lblMiddleName
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(397, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 21);
-            this.label2.TabIndex = 42;
-            this.label2.Text = "Middle Name";
+            this.lblMiddleName.AutoSize = true;
+            this.lblMiddleName.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMiddleName.Location = new System.Drawing.Point(397, 37);
+            this.lblMiddleName.Name = "lblMiddleName";
+            this.lblMiddleName.Size = new System.Drawing.Size(119, 21);
+            this.lblMiddleName.TabIndex = 42;
+            this.lblMiddleName.Text = "Middle Name";
             // 
             // txtMiddleName
             // 
@@ -411,15 +415,15 @@
             this.txtMiddleName.Size = new System.Drawing.Size(246, 27);
             this.txtMiddleName.TabIndex = 41;
             // 
-            // label1
+            // lblFirstName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(138, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 21);
-            this.label1.TabIndex = 40;
-            this.label1.Text = "First Name";
+            this.lblFirstName.AutoSize = true;
+            this.lblFirstName.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFirstName.Location = new System.Drawing.Point(138, 37);
+            this.lblFirstName.Name = "lblFirstName";
+            this.lblFirstName.Size = new System.Drawing.Size(98, 21);
+            this.lblFirstName.TabIndex = 40;
+            this.lblFirstName.Text = "First Name";
             // 
             // txtFirstName
             // 
@@ -431,49 +435,95 @@
             this.txtFirstName.Size = new System.Drawing.Size(246, 27);
             this.txtFirstName.TabIndex = 39;
             // 
+            // lblGitHubLink
+            // 
+            this.lblGitHubLink.AutoSize = true;
+            this.lblGitHubLink.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGitHubLink.Location = new System.Drawing.Point(534, 324);
+            this.lblGitHubLink.Name = "lblGitHubLink";
+            this.lblGitHubLink.Size = new System.Drawing.Size(108, 21);
+            this.lblGitHubLink.TabIndex = 78;
+            this.lblGitHubLink.Text = "GitHub Link";
+            // 
+            // txtGitHubLink
+            // 
+            this.txtGitHubLink.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtGitHubLink.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGitHubLink.Location = new System.Drawing.Point(538, 348);
+            this.txtGitHubLink.Multiline = true;
+            this.txtGitHubLink.Name = "txtGitHubLink";
+            this.txtGitHubLink.Size = new System.Drawing.Size(367, 27);
+            this.txtGitHubLink.TabIndex = 77;
+            // 
+            // lblReligion
+            // 
+            this.lblReligion.AutoSize = true;
+            this.lblReligion.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReligion.Location = new System.Drawing.Point(138, 324);
+            this.lblReligion.Name = "lblReligion";
+            this.lblReligion.Size = new System.Drawing.Size(72, 21);
+            this.lblReligion.TabIndex = 76;
+            this.lblReligion.Text = "Religion";
+            // 
+            // txtReligion
+            // 
+            this.txtReligion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtReligion.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtReligion.Location = new System.Drawing.Point(142, 348);
+            this.txtReligion.Multiline = true;
+            this.txtReligion.Name = "txtReligion";
+            this.txtReligion.Size = new System.Drawing.Size(367, 27);
+            this.txtReligion.TabIndex = 75;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1078, 1057);
+            this.Controls.Add(this.lblGitHubLink);
+            this.Controls.Add(this.txtGitHubLink);
+            this.Controls.Add(this.lblReligion);
+            this.Controls.Add(this.txtReligion);
             this.Controls.Add(this.btnConvertToPDF);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.lblCollege);
             this.Controls.Add(this.txtCollege);
-            this.Controls.Add(this.label18);
+            this.Controls.Add(this.lblSeniorHighSchool);
             this.Controls.Add(this.txtSeniorHighSchool);
-            this.Controls.Add(this.label17);
+            this.Controls.Add(this.lblJuniorHighSchool);
             this.Controls.Add(this.txtJuniorHighSchool);
-            this.Controls.Add(this.label16);
+            this.Controls.Add(this.lblElementary);
             this.Controls.Add(this.txtElementary);
             this.Controls.Add(this.txtExperience);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label15);
+            this.Controls.Add(this.lblExperience);
+            this.Controls.Add(this.lblEducation);
             this.Controls.Add(this.txtHardSkills);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
+            this.Controls.Add(this.lblHardSKills);
+            this.Controls.Add(this.lblSoftSkills);
             this.Controls.Add(this.txtSoftSkills);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.lblPersonalInformation);
+            this.Controls.Add(this.lblBirthday);
             this.Controls.Add(this.txtBirthday);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lblCIvilStatus);
             this.Controls.Add(this.txtCivilStatus);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblPhoneNumber);
             this.Controls.Add(this.txtPhoneNumber);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.lblEmailAddress);
             this.Controls.Add(this.txtEmailAddress);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblAddress);
             this.Controls.Add(this.txtAddress);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblCareerObjectives);
             this.Controls.Add(this.txtCareerObjectives);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblLastName);
             this.Controls.Add(this.txtLastName);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblMiddleName);
             this.Controls.Add(this.txtMiddleName);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.txtFirstName);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Resume Generator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -482,41 +532,45 @@
         #endregion
 
         private System.Windows.Forms.Button btnConvertToPDF;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblCollege;
         private System.Windows.Forms.TextBox txtCollege;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label lblSeniorHighSchool;
         private System.Windows.Forms.TextBox txtSeniorHighSchool;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lblJuniorHighSchool;
         private System.Windows.Forms.TextBox txtJuniorHighSchool;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lblElementary;
         private System.Windows.Forms.TextBox txtElementary;
         private System.Windows.Forms.TextBox txtExperience;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label lblExperience;
+        private System.Windows.Forms.Label lblEducation;
         private System.Windows.Forms.TextBox txtHardSkills;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lblHardSKills;
+        private System.Windows.Forms.Label lblSoftSkills;
         private System.Windows.Forms.TextBox txtSoftSkills;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label txtBirthday;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblPersonalInformation;
+        private System.Windows.Forms.Label lblBirthday;
+        private System.Windows.Forms.TextBox txtBirthday;
+        private System.Windows.Forms.Label lblCIvilStatus;
         private System.Windows.Forms.TextBox txtCivilStatus;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblPhoneNumber;
         private System.Windows.Forms.TextBox txtPhoneNumber;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblEmailAddress;
         private System.Windows.Forms.TextBox txtEmailAddress;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblAddress;
         private System.Windows.Forms.TextBox txtAddress;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblCareerObjectives;
         private System.Windows.Forms.TextBox txtCareerObjectives;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblLastName;
         private System.Windows.Forms.TextBox txtLastName;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblMiddleName;
         private System.Windows.Forms.TextBox txtMiddleName;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblFirstName;
         private System.Windows.Forms.TextBox txtFirstName;
+        private System.Windows.Forms.Label lblGitHubLink;
+        private System.Windows.Forms.TextBox txtGitHubLink;
+        private System.Windows.Forms.Label lblReligion;
+        private System.Windows.Forms.TextBox txtReligion;
     }
 }
 
